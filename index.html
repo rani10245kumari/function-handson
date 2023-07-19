@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h2>Q.1&nbsp; Write the code to acess an element which is having id as "text" ?</h2>
+    <p>Ans.&nbsp;To access an element with the id "text" using JavaScript,
+        you can use the getElementById() method.<br>
+        For example- <br>
+    <pre>
+        var element = document.getElementById("text");
+      </pre>
+    </p>
+    <h2>Q.2 &nbsp; Write the code to acess element which is having tag as "h1"?</h2>
+    <p>
+        Ans.&nbsp;To access an element with tag "h1" using JavaScript,
+        you can use the getElementByTagName() method.<br>
+    <pre>
+            var element = document.getElementByTagName("h1");
+        </pre>
+    </p>
+    <h2>Q.3 &nbsp; Write the code to acess element which is having class as "box"?</h2>
+    <p>
+        Ans.&nbsp;To access an element with the class "box" using JavaScript,
+        you can use the getElementByClassName() method.<br>
+    <pre>
+            var element = document.getElementByClassName("box");
+        </pre>
+    </p>
+    <!---------question no. 4----------->
+    <h2>Q.4 &nbsp;Change the heading from "Hello" to "Hello World" using DOM functions?
+    </h2>
+    <p>Ans.&nbsp;To change the heading from "hello" to "hello world" using DOM-
+    <pre>
+             <h1 id="helo" onclick="heelo()">HELLO</h1>
+             </pre>
+    </p>
+    <!---------Question no. 5------------------->
+    <h2>Q.5&nbsp; Create an HTML page having content as Hello World and a button named Replace text.
+        When user click on this button this page content should change to "Welcome to Elevation Academy"?</h2>
+    <p>Ans.&nbsp;
+        <button onclick="replace()">REPLACE TEXT</button>
+    <h1 id="changeText">Hello World</h1>
+
+    </p>
+
+    <!-----------Question no. 6----------------->
+    <h2>Q.6&nbsp;Add one style attribute and give text color as red and id
+        attribute and give the id value as "heading" in the above given h1 tag
+        using DOM functions?
+    </h2>
+    <p>Ans.
+    <h1 id="heading" onclick="six()">HELLO</h1>
+
+    </p>
+    <!--------------Question no. 7---------------------->
+    <h2>Q.7&nbsp;Create three cards on HTML page and arrange them using flex property
+        in row or horizontal direction and also create a button named
+        "Change Flex direction". When user clicks on this button,the cards arrangement
+        sholud be changed to vertical direction?
+    </h2>
+
+
+    <div class="container" id="cont">
+        <span>Ans-</span>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+    <button onclick="flex()" id="click">Change Flex Direction</button>
+    <h2>Q.8 &nbsp;What's the difference between Window vs Document ?</h2>
+    <p>Ans-
+        In JavaScript, window and document are both global objects but they have some difference</p>
+    <table border=2 id="table">
+        <tr>
+            <th id="head">window:</th>
+            <th id="head2">Document:</th>
+        </tr>
+        <tr id="row">
+            <td>The window object represents the browser window or tab that contains the web page. </td>
+
+            <td>The document object represents the DOM (Document Object Model) for a web page.</td>
+        </tr>
+        <tr>
+            <td>It serves as the global object in the browser's JavaScript environment.</td>
+            <td>It is a property of the window object and provides an interface to access and manipulate the elements
+                and content within the web page.</td>
+        </tr>
+        <tr>
+            <td>The window object provides access to the overall browser environment</td>
+            <td>the document object allows manipulation and interaction with the specific HTML document loaded in the
+                browser.</td>
+        </tr>
+    </table>
+    <!-----------question no. 9---------------->
+    <h2>Q.9&nbsp;Write the code to implement timer clock using JS --display HH:MM:SS --
+        the time should keep updating every second?</h2>
+    <p>Ans-
+    <h1 id="clock"></h1>
+    </p>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

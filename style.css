@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(177, 225, 228);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    background-color: violet;
+    border: 2px solid red;
+}
+
+p {
+    font-style: italic;
+    font-size: 22px;
+}
+
+pre {
+    font-size: 22px;
+    color: #31092f;
+
+}
+
+#table {
+    color: rgb(2, 46, 63)
+}
+
+#head {
+    color: rgb(228, 46, 92);
+    font-size: 24px;
+}
+
+#head2 {
+    color: rgb(228, 46, 92);
+    font-size: 24px;
+}
+
+tr {
+    font-style: italic;
+    font-size: 20px;
+}
