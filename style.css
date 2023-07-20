@@ -1,47 +1,18 @@
 body {
-    background-color: rgb(177, 225, 228);
+    background-color: rgb(233, 233, 177);
+    padding: 30px;
+    margin: 10px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-    width: 100%;
-}
-
-.card {
-    height: 200px;
-    width: 200px;
-    background-color: violet;
-    border: 2px solid red;
-}
-
-p {
+#Function {
+    font-size: 50px;
+    text-align: center;
     font-style: italic;
-    font-size: 22px;
+    font-weight: 900;
+    color: rgb(78, 15, 80);
 }
 
-pre {
-    font-size: 22px;
-    color: #31092f;
-
-}
-
-#table {
-    color: rgb(2, 46, 63)
-}
-
-#head {
-    color: rgb(228, 46, 92);
+P {
     font-size: 24px;
-}
-
-#head2 {
-    color: rgb(228, 46, 92);
-    font-size: 24px;
-}
-
-tr {
     font-style: italic;
-    font-size: 20px;
 }
